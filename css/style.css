@@ -260,10 +260,7 @@ section {
 	display:flex;
 	box-sizing: border-box;
 }
-.logo_image{
-	width: 200px;
-	height: 60px ;
-} 
+
 .navbar-custom .navbar-brand,.navbar-custom .navbar-brand:hover {
 	/* color: #ffffff;
 	/* padding: 30px 15px; */
@@ -313,15 +310,16 @@ nav.small {
 	min-height: 400px;
 }
 .home-page-photo {
-	background-image: url(../images/i-CDxh7Zd.jpg);
+	background: url(../images/IMG_3354.jpg) no-repeat;
 	background-size: cover;
 	z-index: -1;
 	position: absolute;
 	top: 0;
-	opacity: 0.50;
+	opacity: 0.90;
 	right: 0;
 	bottom: 0;
 	left: 0;
+	background-position: center;
 }
 
 .home__header-content {
@@ -350,7 +348,7 @@ nav.small {
 }
 #main-home-carousel .intro-text {
 	color: #cacaca;
-	font-weight: 300;
+	font-weight: 500;
 	margin-bottom: 30px;
 }
 
@@ -370,6 +368,10 @@ nav.small {
 	margin-top: 20px;
 	text-transform: uppercase;
 	width: 70%;
+}
+
+img.for-college-students, img.for-communities{
+	width: 55%;
 }
 
 /* 11 Twitter-tweets
@@ -421,8 +423,9 @@ footer p{
 }
 #footer {
 	padding: 40px 0px 0px 0px;
-	background-color: #f7f7f7;
     border-top: 1px solid #e4e4e4;
+	background: black;
+	color: white;
 }
 .footer-content {
 	padding: 40px 0px 80px;
@@ -453,7 +456,60 @@ footer p{
 	border-radius: 50%;
 	text-align: center;
 	font-size: 18px;
-	color: #282A2E;
+	color: white;
+}
+
+.navbar-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100vw;
+	padding: 0 7%;
+
+}
+
+.lehman_logo_image{
+	width: 90%;
+	height: 45px ;
+} 
+
+.blackstone_logo_image{
+	width: 90%;
+	height: 45px;
+}
+
+
+.navbar *::before,.navbar *::after{
+	content: initial;
+
+}
+
+.posts-section{
+	margin: 5% 7%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+
+.startup-tree-post img{
+	width: 90%;
+	height: 90%;
+	display: block; 
+	margin: auto;
+}
+.winners-post img{
+	width: 95%;
+	height: 90%;
+	display: block;
+	margin: auto;
+
+}
+
+section#contact img{
+	width: 60%;
+	margin: auto;
+	display: block;
 }
 
 /* 15 Responsive
@@ -470,10 +526,52 @@ footer p{
 		width: 100%;
 		display: block;
 	}
-	.logo_image{
-		width: 115px;
+	.lehman_logo_image{
+		width: 100%;
 		height: 30px ;
 	}
+
+	.blackstone_logo_image{
+		width: 100%;
+		height: 30px ;
+	}
+	img.for-college-students, img.for-communities{
+		width: 85%;
+	}
+
+	.navbar-container {
+		display: block;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0 2%;
+	}
+	.navbar *::before,.navbar *::after{
+		content: "";
+	
+	}
+
+
+.posts-section{
+	margin-bottom: 10%;
+	gap: 50px;
+	flex-wrap: wrap;
+	flex-direction: column;
+
+}
+
+.startup-tree-post img{
+	width: 90%;
+	height: 100%;
+	margin: auto;
+}
+.winners-post img{
+	width: 90%;
+	height: 100%;
+	margin: auto;
+
+}
+
+
 }
 
 /* 16 Back-to-top
