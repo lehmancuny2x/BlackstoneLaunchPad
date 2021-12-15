@@ -416,6 +416,21 @@ img.for-college-students, img.for-communities{
 	height: 120px;
 }
 
+.team-members{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
+
+}
+
+
+.team-members img{
+width: 100%;
+margin: auto;
+display: block;
+}
+
+
 /* 14 Footer
 ----------------------------------------------------------------------------- */
 footer p{
@@ -505,13 +520,6 @@ footer p{
 	margin: auto;
 
 }
-
-section#contact img{
-	width: 60%;
-	margin: auto;
-	display: block;
-}
-
 /* 15 Responsive
 ----------------------------------------------------------------------------- */
 @media only screen and (max-width: 767px) {
@@ -571,6 +579,17 @@ section#contact img{
 
 }
 
+.team-members{
+	display: flex;
+	flex-wrap: wrap ;
+	gap: 20px;
+
+}
+
+.team-members img{
+	width: 200px;
+	}
+	
 
 }
 
