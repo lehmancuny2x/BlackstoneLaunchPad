@@ -439,13 +439,13 @@ img.for-communities {
 
 .team-members {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 20px;
 }
 
 .team-members img {
   width: 70%;
-  margin: auto;
+  /* margin: auto; */
   display: block;
 }
 
