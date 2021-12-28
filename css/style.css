@@ -22,6 +22,7 @@
 /* 1 Reset
 ----------------------------------------------------------------------------- */
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
 
 html,
 body {
@@ -441,6 +442,15 @@ img.for-communities {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 20px;
+}
+
+.team-members p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: black;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
 }
 
 .team-members img {
