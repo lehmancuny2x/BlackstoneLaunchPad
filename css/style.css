@@ -441,6 +441,7 @@ img.for-communities {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 20px;
+  justify-content: center;
 }
 
 .team-members p {
@@ -579,6 +580,9 @@ footer p {
   width: 40%;
 }
 
+.founders-cohort ul li{
+  font-size: 20px;
+}
 
 .our-partners{
   display: flex;
@@ -612,6 +616,8 @@ margin-bottom: 20px;
   text-align: center;
   margin-bottom: 20px;
 }
+
+
 
 /* 15 Responsive
 ----------------------------------------------------------------------------- */
@@ -683,6 +689,10 @@ margin-bottom: 20px;
 
   .team-members img {
     width: 200px;
+  }
+
+  .founders-cohort img {
+    width: 80%;
   }
 }
 
