@@ -21,8 +21,8 @@
 
 /* 1 Reset
 ----------------------------------------------------------------------------- */
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Prata&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Prata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
 
 html,
 body {
@@ -314,9 +314,8 @@ nav.small {
   background-color: transparent;
 }
 
-
-.navbar-default .navbar-nav>li>a{
-color: black;
+.navbar-default .navbar-nav > li > a {
+  color: black;
 }
 
 /* 6 Home
@@ -444,8 +443,8 @@ img.for-communities {
   gap: 20px;
 }
 
-.team-members p{
-  font-family: 'Roboto', sans-serif;
+.team-members p {
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: black;
   padding: 0;
@@ -525,12 +524,12 @@ footer p {
   content: initial;
 }
 
-.posts-section {
+/* .posts-section {
   margin: 5% 7%;
   display: flex;
   justify-content: center;
   text-align: center;
-}
+} */
 
 .start_tree_flyer {
   width: 80%;
@@ -538,7 +537,7 @@ footer p {
   display: block;
   margin: auto;
 }
-.join_us{
+.join_us {
   margin-top: 5px;
 }
 .winners-post img {
@@ -548,33 +547,81 @@ footer p {
   margin: auto;
 }
 
-
-#hashtag{
-	background: black;
-	height: 200px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+#hashtag {
+  background: black;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#hashtag h1{
-	color: white;
-	font-size: 70px;
-	font-family: 'Prata', serif;
+#hashtag h1 {
+  color: white;
+  font-size: 70px;
+  font-family: "Prata", serif;
+}
+
+#about section h3,
+#about section h4 {
+  text-align: center;
+}
+
+.founders-cohort {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.founders-cohort img {
+  width: 40%;
 }
 
 
+.our-partners{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.our-partners .partner img{
+height: 50px;
+margin: auto;
+display: block;
+margin-bottom: 20px;
+}
+
+.our-partners .partner{
+  background:rgb(247, 247, 250);
+  width: 250px;
+  padding: 10px 15px;
+}
+
+.poster-img{
+  margin:auto;
+  display: block;
+  width: 40%;
+  margin-top: 40px;
+}
+
+.team-members-title{
+  text-align: center;
+  margin-bottom: 20px;
+}
 
 /* 15 Responsive
 ----------------------------------------------------------------------------- */
 @media only screen and (max-width: 767px) {
-	#hashtag h1{
-		color: white;
-		font-size: 30px;
-		
-	}
-	
-	.navbar-custom {
+  #hashtag h1 {
+    color: white;
+    font-size: 30px;
+  }
+
+  .navbar-custom {
     background-color: #ffffff;
   }
   .navbar-custom .navbar-brand {
@@ -610,12 +657,12 @@ footer p {
     content: "";
   }
 
-  .posts-section {
+  /* .posts-section {
     margin-bottom: 10%;
     gap: 50px;
     flex-wrap: wrap;
     flex-direction: column;
-  }
+  } */
 
   .startup-tree-post img {
     width: 90%;
