@@ -586,6 +586,7 @@ footer p {
 }
 .founders-cohort ul {
   line-height: 60px;
+  width: 85%;
 }
 
 .founders-cohort ul li {
@@ -625,6 +626,38 @@ footer p {
   text-align: center;
   margin-bottom: 20px;
 }
+
+.blp-network{
+  margin-top: 100px;
+}
+
+.blp-network h3{
+  text-align: center;
+}
+
+.blp-video-container{
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  gap: 20px;
+  padding: 0 15%;
+  margin: 40px 0;
+}
+
+.blp-video-container h1{
+  display: flex;
+  flex-direction: column;
+}
+
+.blp-network-btn{
+  width: 200px;
+  margin: 40px 0;
+}
+
+.blp-video-container iframe{
+  width: 80%;
+}
+
 
 /* 15 Responsive
 ----------------------------------------------------------------------------- */
@@ -712,6 +745,12 @@ footer p {
 
   .founders-cohort ul li {
     font-size: 20px;
+  }
+  .blp-video-container{
+    flex-wrap: wrap;
+  }
+  .blp-video-container iframe{
+    width: 100%;
   }
 }
 
