@@ -586,7 +586,7 @@ footer p {
 }
 .founders-cohort ul {
   line-height: 60px;
-  width: 85%;
+  /* width: 85%; */
 }
 
 .founders-cohort ul li {
